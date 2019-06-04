@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Museo';
+    src: url(../assets/fonts/museo/museo-300-webfont.woff) format("woff");
+}
+
+body {
+    font-family: "Museo", sans-serif;
+}
+
+
+nav{
+	height: 15vh;
+	border: 1px solid red;
+	
+	display: flex;
+	flex-direction: row;
+   justify-content: space-between; 
+	align-items: center;
+  }
+  .social-icon{
+	width: 40px;
+  }
+  #left {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 300px;
+	border: 1px solid red;
+  }
+  
+  #right {
+	text-align: right; 
+  } 
